@@ -57,6 +57,7 @@
 // echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); 
 ?>" class="imprint">
 					<?php
+					//Removes Default site title and adds dynamic copy right 
 				echo comicpress_copyright(); 
 					//  printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); 
 					?>
