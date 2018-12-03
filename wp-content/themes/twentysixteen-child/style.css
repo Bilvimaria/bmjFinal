@@ -9,16 +9,32 @@ Version: 0.1.0
 */
 
 
+/* Reduces the blog post titles  */
+
 .entry-title{
     font-size: 1.5rem;
 }
+
+/* Reduces the previous and next post titles  */
 .post-navigation .post-title{
     font-size: 1rem;
 }
+
+/* Changes the style of all horizontal lines */
 .widget{
         border-top: 2px solid #d0d0d0;
 }
 
 .page-header{
         border-top: 2px solid #d0d0d0;
+}
+
+.navigation .post-navigation{
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+}
+.site * {
+    border-color:  #d0d0d0 !important;
+    border-width:  2px;
+
 }
